@@ -69,7 +69,8 @@ function mostrarPlan() {
     `El plan es ir a ${lugarElegido} en ${medioTransporte} y tomar unos mates.`;
 
   mensajeWhatsApp =
-    `Hola! El plan es ir a ${lugarElegido} en ${medioTransporte} y tomar unos mates ☕🚀`;
+    `Hola! El plan es ir a ${lugarElegido} en ${medioTransporte} y tomar unos mates 🧉🌅
+`;
 }
 
 function enviarWhatsApp() {
