@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qivox Smart Gym - Invitación</title>
+
+  <!-- Meta para compartir -->
+  <meta property="og:title" content="Qivox Smart Gym">
+  <meta property="og:description" content="No es una publicación del gym, pero sí una invitación 😉">
+  <meta property="og:image" content="https://qivox.com.ar/wp-content/uploads/2024/09/ARA_3868-Copy.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Pantalla inicial -->
+  <div id="pantalla0" class="card shadow p-4">
+    <h4>No es una publicación del gym,<br>pero sí una invitación a tomar unos mates 🧉</h4>
+    <p> * sin cancherear *</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVyCCSqs5dYmkoTec7MW0nfFts8-kq7WELMw&s" alt="Perrito">
+    <button class="btn btn-primary mt-3" onclick="preguntarMotos()">Continuar</button>
+  </div>
+
+  <!-- Pantalla del plan -->
+  <div id="pantallaPlan" class="card shadow p-4" style="display:none;">
+    <img id="fotoPlan" src="" alt="Lugar" class="img-fluid rounded mb-3">
+    <h4 id="textoPlan"></h4>
+    <button class="btn btn-success mt-3" onclick="enviarWhatsApp()">Entonces si</button>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
